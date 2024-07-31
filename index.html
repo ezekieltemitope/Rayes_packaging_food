@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rayes Food</title>
+    <link rel="stylesheet" href="rayes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body class="m-0 p-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="logo.png" alt="" style="width: 80px; height: 80px;">
+          <a class="navbar-brand float-start me-5" style="width: 100px; margin-left: -50px; font-family: cursive; font-size: 200%; text-decoration: none; color: rgb(255, 81, 0);" href="#">Rayez</a>
+          <a href=""><i class="fa-solid fa-cart-shopping text-body" style="position: absolute; right: 80px; font-size: 30px; margin-top: -15px; text-decoration: none;"></i><div class="numberOfCart" id="numberOfCartId" style="position: absolute; top: 25px; right: 75px; font-size: 15px; width: 16px; height: 20px; text-align: center; padding-bottom: 12px; border-radius: 10px; background-color: rgb(255, 81, 0); color: white;">0</div> </a>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <h2 class=" ps-4 mt-5" style="font-size: 40px;">Savor culinary <span style="color: rgb(255, 81, 0);">Delights.</span> </h2>
+        <p class="pt-4 ps-4 pb-4" style="padding-left: 40px; font-weight: 500; font-family: poppins; color: rgba(0, 0, 0, 0.685);">Savor Culinary Delights. A culinary journey that will leave you feeling full and inspired.</p>
+        <img src="landingimage.jpg" alt="landingimage" class="mx-auto d-block" style="width:100%; height: 500px;">
+      </section>
+
+      
+
+      <section class="products mb-5">
+        <div class="pt-5">
+          <h3 class="text-center" style="color: rgb(255, 81, 0);">Products</h3>
+        </div>
+        <span class="scrolling-wrapper bg-white border"style="border: 2px solid rgb(255, 81, 0);">
+          <div class="row no-gutters bg-white">
+            <div class="col">
+              <img src="locust bean.jpg" alt="" class="img ms-5" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Locust Beans</h4>
+              <p class="ps-4">Elevate your cooking with our premium packaged <br> locust beans, bursting with earthy flavor and protein power. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Tiger nut.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Tigernut</h4>
+              <p class="ps-4">Experience the rich, buttery taste and crunchy texture <br> of our expertly packaged tiger nuts, perfect for munching. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="rice.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Rice</h4>
+              <p class="ps-4">Taste the quality makes with our packaged rice, carefully <br> sourced and packaged to ensure every bite is a delight. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Garri.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">White/Yellow Garri</h4>
+              <p class="ps-4">Stock up on our packaged garri, the perfect pantry staple for <br> making eba, akara, or your favorite garri-based dishes. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="smoked fish.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Smoked fish</h4>
+              <p class="ps-4">Sea-riously delicious, our packaged smoked fish is a treasure, <br> expertly smoked to bring out the best in every bite. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Smoked Chicken.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Smoked Chicken</h4>
+              <p class="ps-4">Indulge in the rich, velvety flavor of our slow-smoked <br> packaged  meats, tenderly crafted to transport. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Palm Oil.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Palm Oil</h4>
+              <p class="ps-4">Elevate your cooking with our expertly packaged palm oil, <br> perfect for frying, sautéing, or making delicious sauces/soups. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Dried Ponmo.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Ponmo</h4>
+              <p class="ps-4">Experience the quality and convenience of our <br> packaged Ponmo  perfect for grilling, roasting, or sautéing. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="Crayfish.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Crayfish</h4>
+              <p class="ps-4">Experience the ultimate seafood delight with our packaged <br> crayfish, perfectly packaged for your next culinary adventure. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="pepper.jpg" alt="" class="img ms-5 mt-3 p-2" style="width: 300px; height: 300px; align-items: center; border-radius: 20px; cursor: pointer; background-repeat: no-repeat; ">
+              <h4 class="ps-4 pt-3">Powdered Pepper</h4>
+              <p class="ps-4">Take your cooking to the next level with our high-quality <br> packaged pepper - the secret ingredient you've been missing. </p>
+              <div style="display: flex;">
+                <p class="ms-4" style="font-weight: 700;">₦ 5,000</p>
+                <button class="ms-5 mb-3" style="background-color: rgb(255, 81, 0); border-radius: 10px;"><a href="" style="border: none;  text-decoration: none; color: white;">Buy Now</a></button>
+              </div>
+            </div>
+          </div>
+        </span>
+      </section>
+
+      <div style="border-bottom: 2px solid orangered; margin-top: 20px; margin-bottom: 20px;"></div>
+
+      <!-- <section>
+        <div class="container">
+          <h1>Horizontal Scrolling Example</h1>
+          <div class="scrolling-wrapper">
+              <div class="row no-gutters">
+                  <div class="col">
+                      <div class="p-3 border bg-light">Item 1</div>
+                  </div>
+                  <div class="col">
+                      <div class="p-3 border bg-light">Item 2</div>
+                  </div>
+                  <div class="col">
+                      <div class="p-3 border bg-light">Item 3</div>
+                  </div>
+                   Add more items as needed -->
+              <!-- </div>
+          </div>
+      </div>
+      </section> --> 
+
+      <!-- <div class="container-fluid bg-indigo p-5"></div>
+      <div class="rounded shadow p-2 bg-white"></div> -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
